@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Assignment 4 - Calculator</title>
     <script src="js/calculator.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-	<input type="text" readonly id="result">
-    <br>
-    <input type="button" id="seven" value="7">
-    <input type="button" id="eight" value="8">
-    <input type="button" id="nine" value="9">
-    <input type="button" id="divide" value="/">
-    <br>
-    <input type="button" id="four" value="4">
-    <input type="button" id="five" value="5">
-    <input type="button" id="six" value="6">
-    <input type="button" id="multiply" value="*">
-    <br>
-    <input type="button" id="one" value="1">
-    <input type="button" id="two" value="2">
-    <input type="button" id="three" value="3">
-    <input type="button" id="subtract" value="-">
-    <br>
-    <input type="button" id="zero" value="0">
-    <input type="button" id="period" value=".">
-    <input type="button" id="add" value="+">
-    <input type="button" id="equal" value="=">
+<body id="body">
+
+    <div id="container">
+        <div id="key_pad">
+            <input type="text" readonly id="result">
+            <br>
+            <input class=btn type="button" id="seven" value="7">
+            <input class=btn type="button" id="eight" value="8">
+            <input class=btn type="button" id="nine" value="9">
+            <input class=btn type="button" id="divide" value="/">
+            <br>
+            <input class=btn type="button" id="four" value="4">
+            <input class=btn type="button" id="five" value="5">
+            <input class=btn type="button" id="six" value="6">
+            <input class=btn type="button" id="multiply" value="*">
+            <br>
+            <input class=btn type="button" id="one" value="1">
+            <input class=btn type="button" id="two" value="2">
+            <input class=btn type="button" id="three" value="3">
+            <input class=btn type="button" id="subtract" value="-">
+            <br>
+            <input class=btn type="button" id="zero" value="0">
+            <input class=btn type="button" id="period" value=".">
+            <input class=btn type="button" id="add" value="+">
+            <input class=btn type="button" id="equal" value="=">
+        </div>
+
+        <div>
+
+            <input class=btn type="button" id="clear" value="C">
+        </div>
+</div>
+
 </body>
+
 </html>

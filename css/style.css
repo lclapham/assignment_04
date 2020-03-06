@@ -1,0 +1,40 @@
+#container {
+    margin: 20px;
+   
+}
+
+#key_Pad {
+    text-align: center;
+
+}
+
+.btn {
+    height: 45px;
+    width: 45px;
+    margin: 2px 2px;
+    font-weight: bolder;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #000000;
+    box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.68);
+   
+}
+
+#clear {
+    margin-top: 5px;
+    width: 204px;
+
+}
+
+#result {
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #000000;
+    background-color:rgb(250, 248, 248);
+    width: 199px;
+    height: 30px;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    text-align: right;
+    padding-right: 5PX;
+    box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.68);
+
+}
